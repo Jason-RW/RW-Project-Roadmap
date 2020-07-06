@@ -1,1 +1,39 @@
-<h1>Hello World!</h1>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Jason's Dashboard</title>
+
+	<link rel="stylesheet" type="text/css" href="css/metrics.css">
+	<!--	 Google Fonts (Cabin Normal+Bold) -->
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic" rel="stylesheet">
+</head>
+<body>
+
+	<main class="main">
+
+				<!-- Collection Activity -->
+				<div class="panel  panel--simple" id="collectionActivityPanel">
+					<header class="panel__header">
+						<div class="panel__info">
+							<div class="panel__title"><span>Project Roadmap</span></div>
+						</div>
+					</header>
+					<div class="panel__content">
+						<div class="panel__graph" id="roadmapchart"></div>
+					</div>
+				</div>
+
+
+
+	</main>
+
+	<!-- ApexCharts 3.8.6 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.8.6/apexcharts.min.js" integrity="sha256-fPasH9WrBndkSzQggD2jDhtCOJ8MapJPWFDUjLGPNPM=" crossorigin="anonymous"></script>
+	<!-- Scripts -->
+	<script src="js/roadmap.js"></script>
+
+</body>
+</html>
