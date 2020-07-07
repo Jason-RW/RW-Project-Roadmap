@@ -1,52 +1,56 @@
+
+
+
+
 var options = {
 				 series: [
 				 {
 					 name: 'Reports Interface Revamp',
 					 data: [
 						 {
-							 x: 'Design',
+							 x: 'Catalyst',
 							 y: [
 								 new Date('2019-03-05').getTime(),
 								 new Date('2019-03-08').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Code',
+							 x: 'Exploration',
 							 y: [
 								 new Date('2019-03-02').getTime(),
 								 new Date('2019-03-05').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Code',
+							 x: 'Tinkering',
 							 y: [
 								 new Date('2019-03-05').getTime(),
 								 new Date('2019-03-07').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Test',
+							 x: 'Architecting',
 							 y: [
 								 new Date('2019-03-03').getTime(),
 								 new Date('2019-03-09').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Test',
+							 x: 'Executing',
 							 y: [
 								 new Date('2019-03-08').getTime(),
 								 new Date('2019-03-11').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Validation',
+							 x: 'Feedback',
 							 y: [
 								 new Date('2019-03-11').getTime(),
 								 new Date('2019-03-16').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Design',
+							 x: 'Debugging',
 							 y: [
 								 new Date('2019-03-01').getTime(),
 								 new Date('2019-03-03').getTime()
@@ -58,35 +62,35 @@ var options = {
 					 name: 'OR Tools MVP',
 					 data: [
 						 {
-							 x: 'Design',
+							 x: 'Catalyst',
 							 y: [
 								 new Date('2019-03-02').getTime(),
 								 new Date('2019-03-05').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Test',
+							 x: 'Exploration',
 							 y: [
 								 new Date('2019-03-06').getTime(),
 								 new Date('2019-03-16').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Code',
+							 x: 'Tinkering',
 							 y: [
 								 new Date('2019-03-03').getTime(),
 								 new Date('2019-03-07').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Deployment',
+							 x: 'Architecting',
 							 y: [
 								 new Date('2019-03-20').getTime(),
 								 new Date('2019-03-22').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Design',
+							 x: 'Executing',
 							 y: [
 								 new Date('2019-03-10').getTime(),
 								 new Date('2019-03-16').getTime()
@@ -98,14 +102,14 @@ var options = {
 					 name: 'Internal Tools',
 					 data: [
 						 {
-							 x: 'Code',
+							 x: 'Catalyst',
 							 y: [
 								 new Date('2019-03-10').getTime(),
 								 new Date('2019-03-17').getTime()
 							 ]
 						 },
 						 {
-							 x: 'Validation',
+							 x: 'Exploration',
 							 y: [
 								 new Date('2019-03-05').getTime(),
 								 new Date('2019-03-09').getTime()
